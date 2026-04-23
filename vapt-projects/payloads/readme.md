@@ -44,10 +44,11 @@ admin' #
 <details>
 <summary>🧪 HTML Injection Payloads</summary>
 
+<pre>
 <h1>Hacked</h1>
-
 <b>This is injected content</b>
-
-<img src="https://miro.medium.com/v2/resize:fit:1400/0*y2OAF_DSarBAjihO.jpg"> <div style="color:red;">Injected HTML</div>
-
+<img src="https://miro.medium.com/v2/resize:fit:1400/0*y2OAF_DSarBAjihO.jpg">
+<div style="color:red;">Injected HTML</div>
+<marquee>You have been hacked</marquee>
+</pre>
 <marquee>You have been hacked</marquee>
