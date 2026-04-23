@@ -88,9 +88,9 @@ Improper input validation allows SQL query manipulation.
 <summary>📌 Click to Expand Details</summary>
   
 Vulnerability	Risk Level
-🔴 XSS	High
-🔴 SQL Injection	Critical
-🟡 HTML Injection	Medium
+- 🔴 XSS	High
+- 🔴 SQL Injection	Critical
+- 🟡 HTML Injection	Medium
 
 </details>
 
