@@ -112,7 +112,7 @@ Vulnerability	Risk Level
 <details>
 <summary>📌 Click to Expand Details</summary>
   
-👉 View Payloads
-👉 Screenshots
+- 👉 View Payloads
+- 👉 Screenshots
 
 </details>
