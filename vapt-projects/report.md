@@ -111,8 +111,8 @@ Vulnerability	Risk Level
 # 📂 Additional Resources
 <details>
 <summary>📌 Click to Expand Details</summary>
-  
-- 👉 View Payloads
-- 👉 Screenshots
+
+- 👉 [View Payloads](./payloads/)  
+- 👉 [View Screenshots](./screenshots/)
 
 </details>
