@@ -23,7 +23,7 @@ Cybersecurity enthusiast with hands-on experience in Web VAPT, Red Team practice
 ## 🧪 Projects
 
 ### 🔐 Web VAPT – OWASP Juice Shop
-- Performed vulnerability assessment on Juice Shop lab
+- Performed vulnerability assessment on Testing Sites
 - Identified vulnerabilities like SQL Injection & XSS
 - Used Burp Suite for testing
 - Created professional VAPT report
