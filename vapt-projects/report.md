@@ -30,7 +30,7 @@ Output encoding
 Use CSP headers
 </details>
 
-🔍 Vulnerability 2: HTML Injection
+# 🔍 Vulnerability 2: HTML Injection
 <details> <summary>📌 Click to Expand Details</summary>
 📖 Description
 
@@ -48,7 +48,7 @@ Sanitize HTML input
 Use output encoding
 </details>
 
-🔍 Vulnerability 3: SQL Injection
+# 🔍 Vulnerability 3: SQL Injection
 <details> <summary>📌 Click to Expand Details</summary>
 📖 Description
 
@@ -67,17 +67,17 @@ Parameterized queries
 Input validation
 </details>
 
-📊 Summary
+# 📊 Summary
 Vulnerability	Risk Level
 🔴 XSS	High
 🔴 SQL Injection	Critical
 🟡 HTML Injection	Medium
 
-🧰 Tools Used
+# 🧰 Tools Used
 Burp Suite
 Browser DevTools
 Manual Testing
 
-📂 Additional Resources
+# 📂 Additional Resources
 👉 View Payloads
 👉 Screenshots Folder
