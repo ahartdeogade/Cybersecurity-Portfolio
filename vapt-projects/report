@@ -17,7 +17,7 @@ The application fails to sanitize user input, allowing execution of arbitrary Ja
 <script>alert('this is dangerous')</script>
 
 ## 📸 Proof of Concept
-![XSS](./screenshots/xssi.png)
+![XSS](./screenshots/xss.png)
 
 ## 🎯 Impact
 - Session hijacking
