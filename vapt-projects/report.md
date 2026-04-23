@@ -82,10 +82,11 @@ Improper input validation allows SQL query manipulation.
 
 ---
 
+# 📊 Summary
+
 <details>
 <summary>📌 Click to Expand Details</summary>
   
-# 📊 Summary
 Vulnerability	Risk Level
 🔴 XSS	High
 🔴 SQL Injection	Critical
@@ -95,22 +96,22 @@ Vulnerability	Risk Level
 
 ---
 
+# 🧰 Tools Used
 <details>
 <summary>📌 Click to Expand Details</summary>
-
-# 🧰 Tools Used
-Burp Suite
-Browser DevTools
-Manual Testing
+  
+- Burp Suite
+- Browser DevTools
+- Manual Testing
 
 </details>
 
 ---
 
+# 📂 Additional Resources
 <details>
 <summary>📌 Click to Expand Details</summary>
-
-# 📂 Additional Resources
+  
 👉 View Payloads
 👉 Screenshots
 
