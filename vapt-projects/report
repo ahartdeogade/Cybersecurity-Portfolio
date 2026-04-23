@@ -1,7 +1,7 @@
 # 🛡️ Web Application VAPT Report
 
 ## 🎯 Target
-demo.tesfire.net (Demo Environment)
+**demo.tesfire.net (Demo Environment)**
 
 ## ⚠️ Disclaimer
 Testing performed on a publicly accessible demo environment for educational purposes only.
@@ -10,85 +10,74 @@ Testing performed on a publicly accessible demo environment for educational purp
 
 # 🔍 Vulnerability 1: Cross-Site Scripting (XSS)
 
-## 📌 Description
+<details>
+<summary>📌 Click to Expand Details</summary>
+
+### 📖 Description
 The application fails to sanitize user input, allowing execution of arbitrary JavaScript in the browser.
 
-## 💣 Payload Used
+### 💣 Payload Used
+```html
 <script>alert('this is dangerous')</script>
 
-## 📸 Proof of Concept
-![XSS](./screenshots/xss.png)
+🎯 Impact
+Session hijacking
+Cookie theft
+Malicious script execution
+🛠️ Remediation
+Input validation
+Output encoding
+Use CSP headers
+</details>
 
-## 🎯 Impact
-- Session hijacking
-- Cookie theft
-- Malicious script execution
+🔍 Vulnerability 2: HTML Injection
+<details> <summary>📌 Click to Expand Details</summary>
+📖 Description
 
-## 🛠️ Remediation
-- Input validation
-- Output encoding
-- Use CSP headers
-
----
-
-# 🔍 Vulnerability 2: HTML Injection
-
-## 📌 Description
 User input is rendered without sanitization, allowing HTML content injection.
 
-## 💣 Payload Used
+💣 Payload Used
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*y2OAF_DSarBAjihO.jpg" width="500">
 
-## 📸 Proof of Concept
-![HTML Injection](./screenshots/html-injection.png)
+🎯 Impact
+UI manipulation
+Phishing attacks
+Content spoofing
+🛠️ Remediation
+Sanitize HTML input
+Use output encoding
+</details>
 
-## 🎯 Impact
-- UI manipulation
-- Phishing attacks
-- Content spoofing
+🔍 Vulnerability 3: SQL Injection
+<details> <summary>📌 Click to Expand Details</summary>
+📖 Description
 
-## 🛠️ Remediation
-- Sanitize HTML input
-- Use output encoding
-
----
-
-# 🔍 Vulnerability 3: SQL Injection
-
-## 📌 Description
 Improper input validation allows SQL query manipulation.
 
-## 💣 Payload Used
+💣 Payload Used
 'or 1=1 --
 
-## 📸 Proof of Concept
-![SQL Injection](./screenshots/sqli.png)
+🎯 Impact
+Authentication bypass
+Unauthorized access
+Database compromise
+🛠️ Remediation
+Use prepared statements
+Parameterized queries
+Input validation
+</details>
 
-## 🎯 Impact
-- Authentication bypass
-- Unauthorized access
-- Database compromise
+📊 Summary
+Vulnerability	Risk Level
+🔴 XSS	High
+🔴 SQL Injection	Critical
+🟡 HTML Injection	Medium
 
-## 🛠️ Remediation
-- Use prepared statements
-- Parameterized queries
-- Input validation
+🧰 Tools Used
+Burp Suite
+Browser DevTools
+Manual Testing
 
----
-
-# 📊 Summary
-
-| Vulnerability | Risk Level |
-|--------------|-----------|
-| XSS          | High      |
-| SQL Injection| Critical  |
-| HTML Injection| Medium   |
-
----
-
-# 🧰 Tools Used
-- Burp Suite  
-- Browser DevTools  
-- Manual Testing  
-
----
+📂 Additional Resources
+👉 View Payloads
+👉 Screenshots Folder
