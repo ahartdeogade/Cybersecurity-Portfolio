@@ -42,7 +42,13 @@ The application fails to sanitize user input, allowing execution of JavaScript.
 User input is rendered without sanitization, allowing HTML injection.
 
 ### 💣 Payload Used
-<img src="https://miro.medium.com/v2/resize:fit:1400/0*y2OAF_DSarBAjihO.jpg" width="500"> ```
+```html
+<h1>Hacked</h1>
+<b>This is injected content</b>
+<img src="https://miro.medium.com/v2/resize:fit:1400/0*y2OAF_DSarBAjihO.jpg">
+<div style="color:red;">Injected HTML</div>
+<marquee>You have been hacked</marquee>
+```
 
 ### 🎯 Impact
 - UI manipulation
